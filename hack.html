@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+
+<body class="hack">
+
+<h3>HACKING...</h3>
+
+<div id="terminal"></div>
+
+<script>
+
+var text=[
+
+"Connecting...",
+
+"Access granted",
+
+"Copying data...",
+
+"Installing malware...",
+
+"⚠ Your account have locked!"
+
+];
+ 
+var i=0;
+
+var hack=setInterval(function(){
+
+terminal.innerHTML+=text[i]+"<br>";
+
+i++;
+
+if(i==text.length){
+
+clearInterval(hack);
+
+setTimeout(function(){
+
+
+},2000);
+
+}
+
+},1000);
+
+</script>
+
+
+</h1>
+
+</body>
+
+</html>
